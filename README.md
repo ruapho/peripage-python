@@ -45,6 +45,11 @@ The author and people associated with him are not responsible for the inoperabil
 
 ## Installation
 
+**Install with pipx (recommend)**
+```
+pipx install git+https://github.com/ruapho/peripage-python.git
+```
+
 **Install from git clone**
 
 ```
@@ -57,6 +62,8 @@ pip install . --user
 ```
 pip install peripage
 ```
+
+
 
 ## Dependencies
 
