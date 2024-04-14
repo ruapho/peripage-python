@@ -11,7 +11,7 @@ setup(
     url = 'https://github.com/bitrate16/peripage-python',
     keywords = ['PERIPAGE', 'BLUETOOTH', 'THERMAL PRINTER', 'PRINTER'],
     install_requires=[
-        'PyBluez>=0.23',
+        'PyBluez @ git+https://github.com/pybluez/pybluez.git#egg=pybluez',
         'Pillow>=8.2.0',
         'argparse>=1.1',
         'qrcode>=6.1',
